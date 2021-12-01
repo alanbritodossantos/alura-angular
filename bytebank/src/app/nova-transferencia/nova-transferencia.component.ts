@@ -17,7 +17,7 @@ export class NovaTransferenciaComponent {
   transferir() {
     console.log('solicitada nova transferência');
     const valorEmitir = { valor: this.valor, destino: this.destino}
-    this.aoTransferir.emit(valorEmitir);
+    this.aoTransferir.emit(valorEmitir);// esse metodo exibe a mensagem, no caso os valores.
   }
 
 }
